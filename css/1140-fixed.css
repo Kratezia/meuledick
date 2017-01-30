@@ -1,0 +1,9 @@
+
+.row{ min-width: 960px; max-width: 960px; } 
+.fourcol{ min-width:250px;} 
+.eightcol{min-width:610px;  margin-left:10px}
+
+/* Display WP audio tag correctly */
+.wp-audio-shortcode{
+	max-width: 548px;
+}

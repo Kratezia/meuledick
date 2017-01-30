@@ -1,0 +1,80 @@
+/*
+
+Theme Name: Eatery 
+Theme URI: http://www.themovation.com/eatery
+Description: Eatery - Restaurant, Cafe, Eatery Theme.  
+Author: Themovation
+Author URI: http://www.themovation.com
+Version: 1.0
+Tags: Restaurant, Eatery, Cafe, Fancy, Casual, Breakfast, Seafood, Responsive, Mobile, Black, White, Brown, Yellow, Blue
+
+License: GNU GENERAL PUBLIC LICENSE Version 2
+License URI: http://www.themovation.com/eatery/license
+
+
+/* IE Support for Mobile / Responsive CSS
+The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net
+\ http://www.twitter.com/andytlr \ http://www.andytlr.com 
+	
+*/
+
+.onecol {
+	width: 4.7%;
+}
+
+.twocol {
+	width: 13.2%;
+}
+
+.threecol {
+	width: 22.05%;
+}
+
+.fourcol {
+	width: 30.6%;
+}
+
+.fivecol {
+	width: 39%;
+}
+
+.sixcol {
+	width: 48%;
+}
+
+.sevencol {
+	width: 56.75%;
+}
+
+.eightcol {
+	width: 61.6%;
+}
+
+.ninecol {
+	width: 74.05%;
+}
+
+.tencol {
+	width: 82%;
+}
+
+.elevencol {
+	width: 91.35%;
+}
+
+
+/* IE 8 Background Fix */
+
+.ie87-bg {
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	min-height:100%;
+	min-width:1024px;
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	z-index:-150;
+}

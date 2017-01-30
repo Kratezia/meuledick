@@ -1,0 +1,111 @@
+/*
+
+Theme Name: Eatery 
+Theme URI: http://www.themovation.com/eatery
+Description: Eatery - Restaurant, Cafe, Eatery Theme.  
+Author: Themovation
+Author URI: http://www.themovation.com
+Version: 1.0
+Tags: Restaurant, Eatery, Cafe, Fancy, Casual, Breakfast, Seafood, Responsive, Mobile, Black, White, Brown, Yellow, Blue
+
+License: GNU GENERAL PUBLIC LICENSE Version 2
+License URI: http://www.themovation.com/eatery/license
+
+
+Mobile / Responsive CSS
+The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net
+http://www.twitter.com/andytlr \ http://www.andytlr.com 
+		
+*/
+
+/* CSS Resets */
+
+article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}
+a img{border:0}figure{position:relative}figure img{width:100%}
+
+.row {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+	margin-right: 3.8%;
+	float: left;
+	min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+}
+
+.row .ninecol {
+width: 74.05%;
+}
+
+.row .tencol {
+width: 82.7%;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+#gmap img {
+    max-width: none;
+}
+
+
+/* MOBILE MENU */
+
+#mobile-navigation {
+    display: none;
+    visibility:hidden;
+}
+

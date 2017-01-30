@@ -1,0 +1,250 @@
+/* 
+
+SKIN | Coffee House Theme
+
+HELP | To make adding a new skin easier start with 6 colours
+and use the comments beside each ID and CLASS to fill in your
+custom colors in the right spaces.
+
+#1 | SIDE BG 		| #732404	| Shade or Background Color (Sidebar) 				
+#2 | SIDE CONTRAST 	| #ffdd9d	| Contrasting Color (Sidebar) 						
+#3 | SIDE TINT 		| #5f1e04	| Shade or Background Tint (Sidebar) 				
+#4 | SITE BG 		| #ece7e1	| Off White (Site Background) 						
+#5 | PAGE BG 		| #ffdd9d	| Bright white background (Content Page Background) 
+#6 | TEXT 			| #1f1003	| Page headings & text (Content Page) 				
+
+*/
+
+body {
+		background:#ece7e1 url(images/warm-grain.jpg); /* SITE BG */
+		color:#5b5b5b;
+}
+
+/******************** Sidebar ********************/
+
+#sidebar {background:#732404 url(images/noisy.jpg) repeat !important;}
+
+.dropcap1shade { 
+		background-color:#732404;} 			/* SIDE BG */
+		
+.dropcap2shade{
+		color:#732404; }					/* SIDE BG */ 
+		
+#sidebar .side-widget.below {
+		/*border-bottom:1px solid #5f1e04;*/} 	/* SIDE TINT */
+		
+#sidebar .side-widget ul li a {
+		border-color:#ffdd9d;} 					/* SIDE CONTRAST */
+		
+#sidebar .side-widget ul li a:hover {
+		background-color:#ffdd9d; 
+		color:#732404;} 					/* SIDE BG & SIDE CONTRAST */
+
+#sidebar .side-widget.above {
+		/*border-top:1px solid #5f1e04;*/}		/* SIDE TINT */
+
+
+/******************** Navigation ********************/
+
+#sidebar #the-side-menu {
+		/*border-bottom:1px solid #5f1e04; */	/*SIDE TINT*/
+}
+
+#sidebar-menu li ul {
+		background:#732404; 				/*SIDE TINT*/
+		border:1px solid #5f1e04; } 		/* SIDE BG */
+
+#sidebar-menu li ul li {
+		border-top:1px solid #5f1e04;} 		/* SIDE BG */
+
+#sidebar-menu li a {							
+		color:#ffdd9d}	  					/* SIDE CONTRAST */
+
+#sidebar-menu li a:hover {	
+		color:#fff !important;} 			/* PAGE BG */
+		
+#sidebar-menu li ul {
+	-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
+	   -moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
+    		box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+
+/******************** Mobile Menu ********************/
+
+
+/******************** Default Widgets ********************/
+
+#wp-calendar tbody .pad:hover {
+		background:none} 
+#wp-calendar tbody td:hover {
+		background:#732404;} 				/* SIDE BG */	
+#wp-calendar tbody td {
+		border: 1px solid #732404;}			/* SIDE BG */	
+#wp-calendar tbody .pad {
+		background:#732404;} 				/* SIDE BG */	
+
+#sidebar #wp-calendar tbody td a:link, 
+#sidebar #wp-calendar tbody td a {
+		color:#ffdd9d ; font-weight:bold; 
+		text-decoration:underline}			/* SIDE CONTRAST */
+#wp-calendar thead th, 
+#wp-calendar caption {
+		color: #ffdd9d;} 					/* SIDE CONTRAST */
+#wp-calendar tbody { 
+		color: #ffdd9d; } 					/* SIDE CONTRAST */
+#wp-calendar tbody td {
+		background:#5f1e04;} 				/*SIDE TINT*/
+
+
+/******************** Tag Cloud ********************/
+
+#sidebar .tagcloud a:hover {
+		background-color:#ffdd9d; 
+		color:#5f1e04} 						/* SIDE CONTRAST & SIDE BG */
+#sidebar .tagcloud a{
+		background-color:#5f1e04;} 			/* SIDE TINT */
+
+/******************** Content ********************/
+
+#inner-content {
+		background-color:#fff;} 			/* PAGE BG */
+
+/******************** Food Menu ********************/
+
+.menu_item_wrapper, h3.menu-title, 
+h4.menu-title { 
+		border-color:#ece7e1;} 				/* SITE BG */
+
+/******************** Footer ********************/
+
+#footer { background-color:#fff;} 			/* PAGE BG */
+
+/******************** Typography ********************/
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, 
+h3 a, h4 a, h5 a, h6 a, p a, a {
+		color:#1f1003;} 					/* TEXT */
+
+p a, #older-posts a, #newer-posts a {
+		color:#5f1e04;} 					/* SIDE BG */
+
+h1 a:hover, h2 a:hover, h3 a:hover,
+h4 a:hover, h5 a:hover, h6 a:hover,
+p a:hover, #older-posts a:hover, 
+#newer-posts a:hover {
+		text-decoration:none; 
+		background-color:#5f1e04; 
+		color:#fff;} 						/* SIDE BG & PAGE BG */
+
+h1, h2, h3, h4 {
+}
+
+#sidebar {
+		font-family:Helvetica, Arial, sans-serif;
+		color:#ffdd9d;} 					/* SIDE CONTRAST */
+
+/*#sidebarBorder{
+		border:#914815 1px solid;} */			/* SIDE TINT */
+
+#sidebar .side-widget a {
+		color:#ffdd9d; font-weight:normal;} /* SIDE CONTRAST */
+
+
+#sidebar h1, #sidebar h2, #sidebar h3,
+#sidebar h4, #sidebar h5, #sidebar h6, 
+#sidebar h1 a, #sidebar h2 a, #sidebar h3 a,
+#sidebar h4 a, #sidebar h5 a, #sidebar h6 a,
+#sidebar p a, #sidebar a{
+		color:#fff;}  						/* PAGE BG */
+		
+#sidebar h1 a:hover, #sidebar h2 a:hover,
+#sidebar h3 a:hover, #sidebar h4 a:hover, 
+#sidebar h5 a:hover, #sidebar h6 a:hover, 
+#sidebar p a:hover, #sidebar #older-posts a:hover, 
+#sidebar #newer-posts a:hover{
+		text-decoration:none; 
+		color:#5f1e04;
+		background-color:#ffdd9d;}
+											/* SIDE BG & SIDE CONTRAST */
+				
+#sidebar h1, #sidebar h2 {
+		color:#fff;} 						/* PAGE BG */ 
+
+#sidebar p {
+		color:#ffdd9d;} 					/* SIDE CONTRAST */
+
+.postmeta {
+		font-family:Arial, Helvetica, sans-serif;}
+
+/*blockquote {
+		border-top:3px #5f1e04 solid;}*/ 		/* SIDE BG */
+
+hr {color:#ece7e1;}							/* SITE BG */
+
+hr.headings { 
+	border-color:#ece7e1; 					/* SITE BG */
+}
+
+/******************** Forms ********************/
+
+/* Reservation Form */
+
+#form-wrapper input.sendbtn {
+	background-color: #732404;				/* SIDE BG */
+	color:#ffdd9d;							/* SIDE CONTRAST */
+}
+#form-wrapper input.sendbtn:hover {
+	background-color:#5f1e04;				/* SIDE TINT */
+}
+
+/******************** Blog ********************/
+
+#comments-title, #reply-title, .nocomments {border-color:#ece7e1;} 					/* SITE BG */
+
+#comments .comment-author .fn, #comments .comment-author .fn a {color:#5f1e04;}		/*SIDE TINT*/
+#comments .comment-author a:hover {background-color:#5f1e04; color:#ffffff;}		/*SIDE TINT & PAGE BG*/
+
+#respond input#submit {
+	background-color: #732404;				/* SIDE BG */
+	color:#ffdd9d;							/* SIDE CONTRAST */
+}
+#respond input#submit:hover {
+	background-color:#5f1e04;				/* SIDE TINT */
+}
+
+/******************** Social Media ********************/
+
+.soc a{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.soc a:hover{
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/******************** Shortcodes ********************/
+h3.trigger a:hover {
+		color:#5f1e04; 						/* SIDE BG */
+}
+
+.reso.button {background-color: #672004;}	/* SIDE BG */
+.reso.button:hover {
+	-moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+
+/******************** Search ********************/
+input[type=search], input[type=search]:focus {
+		background: #5f1e04 url(images/search-icon.png) no-repeat 9px center; 
+		color:#ffdd9d; 					/* SIDE CONTRAST */
+		box-shadow: 0 1px 1px rgba(255,255,255,.1),
+					inset 0 1px 1px rgba(0,0,0,.3);
+		-moz-box-shadow: 0 1px 1px rgba(255,255,255,.1),
+					inset 0 1px 1px rgba(0,0,0,.3);
+		-webkit-box-shadow: 0 1px 1px rgba(255,255,255,.1),
+					inset 0 1px 1px rgba(0,0,0,.3);
+}

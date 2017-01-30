@@ -1,0 +1,116 @@
+/*
+Theme Name: Eatery 
+Theme URI: http://www.themovation.com/eatery
+Description: Eatery - Restaurant, Cafe, Eatery Theme.  
+Author: Themovation
+Author URI: http://www.themovation.com
+Version: 1.0
+Tags: Restaurant, Eatery, Cafe, Fancy, Casual, Breakfast, Seafood, Responsive, Mobile, Black, White, Brown, Yellow, Blue
+
+License: GNU GENERAL PUBLIC LICENSE Version 2
+License URI: http://www.themovation.com/eatery/license
+
+
+CSS for WordPress Admin Theme Options
+
+*/
+
+.wrap, .nav-tab-wrapper{
+	max-width:740px;
+}
+img{
+}
+.theme-options-group {
+		margin-top: 20px;
+		}
+		
+		.theme-options-table th {
+			width: 200px;
+		}
+		
+		.theme-options-table p.description {
+			margin: 0 0 5px;
+			color: #000;
+			font-style: normal;
+		}
+		
+		.theme-options-table td {
+			padding: 10px;
+		}
+		
+		.theme-options-table input[type="checkbox"],.theme-options-table input[type="radio"],.meta-box-item input[type="checkbox"],.meta-box-item input[type="radio"]
+			{
+			margin-right: 10px;
+		}
+		
+		.theme-options-table textarea {
+			width: 80%;
+		}
+		
+		.theme-options-table select {
+			min-width: 200px;
+			width:auto !important;
+			width:200px;
+		}
+		
+		.theme-upload-buttons {
+			padding: 10px 0 2px;
+		}
+		
+		.theme-option-image-preview {
+			width: 150px;
+			height: 150px;
+			float: right;
+			overflow: hidden;
+		}
+		
+		.widefat td, .widefat th 
+	
+		{
+		
+		border-top-color: #ffffff;
+		
+		border-bottom-color: #dfdfdf;
+		
+		}
+		
+		.widefat th 
+		
+		{
+		
+		text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.8);
+		
+		}
+		
+		
+div.adminErrMsg2{
+	background-color: #eee;
+	border: 1px solid red;
+	margin: 5px;
+	padding: 5px;
+}
+
+hr{
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+	border:none;
+}
+
+input.button-primary,
+button.button-primary,
+a.button-primary {
+    background: url("button-grad.png") repeat-x scroll left top #78a358;
+    border-color: #6c924f;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+input.button-primary:hover,
+button.button-primary:hover,
+a.button-primary:hover {
+
+    border-color: #51703a;
+}

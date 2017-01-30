@@ -1,0 +1,242 @@
+/*
+
+Theme Name: Eatery 
+Theme URI: http://www.themovation.com/eatery
+Description: Eatery - Restaurant, Cafe, Eatery Theme.  
+Author: Themovation
+Author URI: http://www.themovation.com
+Version: 1.0
+Tags: Restaurant, Eatery, Cafe, Fancy, Casual, Breakfast, Seafood, Responsive, Mobile, Black, Blank, Brown, Yellow, Blue
+
+License: GNU GENERAL PUBLIC LICENSE Version 2
+License URI: http://www.themovation.com/eatery/license
+
+*/
+
+/* Smaller screens */
+
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	}
+	
+}
+
+@media handheld, only screen and (max-width: 400px) {
+
+	.menu_item_image_lg, .size-full{
+		float:none;
+	}
+	.credit {
+		float:left; 
+		clear:both;
+		white-space: nowrap;
+	}
+}
+
+@media handheld, only screen and (max-width: 767px) {
+	
+	
+	#sidebar {height:auto}
+	
+	body {
+	/*font-size: 16px;*/
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	
+	#container {
+		width:100%;
+		min-width: 240px;
+		margin:-352px 0 0;
+		padding:0;
+	}
+	
+	#main-content{
+		margin: 0;
+		width:auto;
+		min-width: 240px;
+		padding:0;
+		height:auto
+	}
+
+
+	#inner-content{
+		/*border:1px red solid;*/
+		width:auto;
+		min-width: 240px;
+		margin:0px;
+	}
+
+	
+	
+	.corner {background:none; visibility:hidden; position:absolute; width:0; height:0;}
+	
+	#sidebar {	
+		position:relative;
+		width:auto;
+    	min-height:inherit;
+		padding:0;
+		margin:0;
+	
+	}
+	
+	/* SIDE BAR */
+	
+	#sidebarBorder{padding:14px 0 0;}
+	
+	#logo {margin:0; padding:30px 0 10px 0}
+	
+	#sidebar .side-widget.below, #sidebar .side-widget.above{
+		border:1px white solid;
+		display: none;
+        visibility: collapse;
+	}
+	
+	#sidebar .side-widget.mobile {
+		padding:12px 0;
+		margin:0;
+		display:block;
+    	visibility:visible;
+		border-top-width: 0px;
+		border-top-style: solid;
+	}
+	
+	#footer{
+		margin:5px 0;
+		width:auto;
+		min-width:240px;
+	}
+	
+	#the-side-menu{
+		display: none;
+        visibility: collapse;
+	}
+	
+	/* RESO FORM */
+	
+	#form-wrapper {width:100%}
+	
+	
+	/* MOBILE MENU */
+	
+	html #wpadminbar {z-index:99999 !important}
+	
+	.mean-container .mean-bar {
+		margin-bottom:30px;
+		z-index:30000 !important;
+	}
+	
+	.mean-container .mean-bar,
+	.mean-container .mean-nav {background:#161616 !important}
+	
+	.mean-container .mean-nav ul li a {
+		padding:12px 5%;
+		border-top:1px solid #383838 !important;
+	}
+	
+	.mean-container .mean-nav ul li a.mean-expand {
+		height:auto !important;
+		background:transparent;
+		border-left:1px solid #383838 !important;
+		border-bottom:0 !important;
+	}	
+	
+	/*  FOOD MENU */	
+	
+	.food_menu_wrapper .menu_item_wrapper h3 {margin:6px 0 8px;}
+	
+	.food_menu_wrapper .menu_item_wrapper .menu_item_image_sm {width:90px; height:90px; margin:0;}
+	.food_menu_wrapper .menu_item_wrapper .menu_item_image_sm img {width:75px; height:75px;}
+	.food_menu_wrapper .menu_item_wrapper .menu_item_image_lg {}
+	.food_menu_wrapper .menu_item_wrapper .menu_item_image_lg img {}	
+	
+	.item-price-block {float:left; padding:0; margin:0 0 6px 0; font-size:14px; clear:left;}
+	
+	
+/******************** Forms ********************/
+/***********************************************/
+
+/* Reso Form */
+
+
+#form-wrapper {width:80%; text-align:center}
+
+#form-wrapper .full, #form-wrapper .one_third, #form-wrapper select.one_third, #form-wrapper .two_thirds{width:100%; margin-bottom:10px;}
+
+#form-wrapper .input-text{
+	width:95%;
+}
+
+.infoWrapper, .infoContent{margin:0; padding:0;}
+
+.one_half{width:100%;
+display:block}
+
+.credit {
+		float:left; 
+		clear:both;
+		white-space: nowrap;
+	}
+
+}
+
+@media handheld, only screen and (max-width: 913px) {
+	#searchsubmit {display:none;}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    .mobile-menu {
+        background-image: url('../images/white-dropdown-large.png');
+    }
+}
+
+
+/******************** Misc ********************/
+/**********************************************/
+
+
+/* Display WP audio tag correctly */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.wp-audio-shortcode{
+		max-width: 414px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1179px) {
+	.wp-audio-shortcode{
+		max-width: 548px;
+	}
+}
+
+@media only screen and (min-width: 1180px) {
+	.wp-audio-shortcode{
+		max-width: 664px;
+	}
+}

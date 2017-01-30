@@ -1,0 +1,40 @@
+/* CSS Document */
+
+
+
+
+.mce-i-blogfeed:before {
+    content: "\f164";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font: 400 20px/1 dashicons!important;
+    speak: none;
+    vertical-align: top;
+}
+
+
+i.icon-menu {
+	background-image: url('button_menu.png');
+}
+i.icon-map {
+	background-image: url('button_map.png');
+}
+i.icon-image {
+	background-image: url('button_image.png');
+}
+i.icon-ruler {
+	background-image: url('button_ruler.png');
+}
+i.icon-slideshow {
+	background-image: url('button_slideshow.png');
+}
+i.icon-tab {
+	background-image: url('button_tab.png');
+}
+i.icon-toggle {
+	background-image: url('button_toggle.png');
+}
+i.icon-blogfeed {
+	background-image: url('button_blogfeed.png');
+}

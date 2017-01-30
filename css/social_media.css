@@ -1,0 +1,124 @@
+/* CSS Document */
+
+.googleplus{
+			background-position: -100px 0;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.googlemaps{
+			background-position: -250px -50px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.linkedin{
+			background-position: -200px -100px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.meetup{
+			background-position: -100px -100px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.phone{
+			background-position: 0 -50px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.pinterest{
+			background-position: -150px 0;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.rss{
+			background-position: -150px -50px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		
+		.sharethis{
+			background-position: -100px -50px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.tripadvisor{
+			background-position: -50px -150px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.tumblr{
+			background-position: -50px -100px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.twitter{
+			background-position: -50px 0;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.urbanspoon{
+			background-position: 0 -150px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.vimeo{
+			background-position: -150px -100px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.yelp{
+			background-position: -200px 0;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.youtube{
+			background-position: -250px -100px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.bookmark{
+			background-position: 0 -100px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.email{
+			background-position: -200px -50px ;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.facebook{
+			background-position: 0 0;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.foursquare{
+			background-position: -250px 0;
+			width: 43px;
+			height: 42px;
+		}
+		
+		.instagram{
+			background-position: -100px -150px;
+			width: 43px;
+			height: 42px;
+		}
+		
+.googleplus, .googlemaps, .linkedin, .meetup, .phone, .pinterest, .rss, .sharethis, .tripadvisor, .tumblr, .twitter, .urbanspoon, .vimeo, .yelp, .youtube, .bookmark, .email, .facebook, .foursquare, .instagram{ background-repeat:no-repeat}

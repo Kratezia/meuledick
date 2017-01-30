@@ -1,0 +1,272 @@
+/* 
+
+SKIN | Seafood Theme
+
+HELP | To make adding a new skin easier start with 6 colours
+and use the comments beside each ID and CLASS to fill in your
+custom colors in the right spaces.
+
+#1 | SIDE BG 		| #73a4c3	| Shade or Background Color (Sidebar) 				
+#2 | SIDE CONTRAST 	| #f1f2ec	| Contrasting Color (Sidebar) 						
+#3 | SIDE TINT 		| #5a89a6	| Shade or Background Tint (Sidebar) 				
+#4 | SITE BG 		| #ece7e1 	| Off White (Site Background) 						
+#5 | PAGE BG 		| #ffffff	| Bright white background (Content Page Background) 
+#6 | TEXT 			| #454a4e	| Page headings & text (Content Page) 		 		
+
+*/
+
+body {
+		background:#ece7e1 url(images/wood_texture.jpg); /* SITE BG */
+		color:#5b5b5b;
+}
+
+/******************** Sidebar ********************/
+
+#sidebar {background:#73a4c3 url(images/concrete_wall.jpg) repeat !important;}
+
+.dropcap1shade { 
+		background-color:#73a4c3;} 			/* SIDE BG */
+		
+.dropcap2shade{
+		color:#73a4c3; }					/* SIDE BG */ 
+		
+#sidebar .side-widget.below {
+		/*border-bottom:1px solid #5a89a6;*/} 	/* SIDE TINT */
+		
+#sidebar .side-widget ul li a {
+		border-color:#f1f2ec;} 					/* SIDE CONTRAST */
+		
+#sidebar .side-widget ul li a:hover {
+		background-color:#f1f2ec; 
+		color:#73a4c3;} 					/* SIDE BG & SIDE CONTRAST */
+
+#sidebar .side-widget.above {
+		/*border-top:1px solid #5a89a6;*/}		/* SIDE TINT */
+
+
+/******************** Navigation ********************/
+
+#sidebar #the-side-menu {
+		/*border-bottom:1px solid #5a89a6; */	/*SIDE TINT*/
+}
+
+#sidebar-menu li ul {
+		background:#73a4c3; 					
+		border:1px solid #5a89a6; } 		
+
+#sidebar-menu li ul li {
+		border-top:1px solid #5a89a6;} 		
+
+#sidebar-menu li a {							
+		color:#f1f2ec}	  					/* SIDE CONTRAST */
+
+#sidebar-menu li a:hover {	
+		opacity:0.7;}
+
+
+/******************** Mobile Menu ********************/
+
+
+
+/******************** Default Widgets ********************/
+
+#wp-calendar tbody .pad:hover {
+		background:none} 
+#wp-calendar tbody td:hover {
+		background:#73a4c3;} 				/* SIDE BG */	
+#wp-calendar tbody td {
+		border: 1px solid #73a4c3;}			/* SIDE BG */	
+#wp-calendar tbody .pad {
+		background:#73a4c3;} 				/* SIDE BG */	
+
+#sidebar #wp-calendar tbody td a:link, 
+#sidebar #wp-calendar tbody td a {
+		color:#f1f2ec ; font-weight:bold; 
+		text-decoration:underline}			/* SIDE CONTRAST */
+#wp-calendar thead th, 
+#wp-calendar caption {
+		color: #f1f2ec;} 					/* SIDE CONTRAST */
+#wp-calendar tbody { 
+		color: #f1f2ec; } 					/* SIDE CONTRAST */
+#wp-calendar tbody td {
+		background:#5a89a6;} 				/*SIDE TINT*/
+
+
+/******************** Tag Cloud ********************/
+
+#sidebar .tagcloud a:hover {
+		background-color:#f1f2ec; 
+		color:#5a89a6} 						/* SIDE CONTRAST & SIDE BG */
+#sidebar .tagcloud a{
+		background-color:#5a89a6;} 			/* SIDE TINT */
+
+/******************** Content ********************/
+
+#inner-content {
+		background-color:#fff;} 			/* PAGE BG */
+
+/******************** Food Menu ********************/
+
+.menu_item_wrapper, h3.menu-title, 
+h4.menu-title { 
+		border-color:#ece7e1;} 				/* SITE BG */
+
+/******************** Footer ********************/
+
+#footer { background-color:#fff;} 			/* PAGE BG */
+
+/******************** Typography ********************/
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, 
+h3 a, h4 a, h5 a, h6 a {
+		color:#2b2b2b;} 					/* TEXT */
+
+a, p a, #older-posts a, #newer-posts a {
+		color:#5a89a6;} 					/* SIDE BG */
+
+h1 a:hover, h2 a:hover, h3 a:hover,
+h4 a:hover, h5 a:hover, h6 a:hover,
+p a:hover, #older-posts a:hover, 
+#newer-posts a:hover {
+		text-decoration:none; 
+		background-color:#5a89a6; 
+		color:#fff;} 						/* SIDE BG & PAGE BG */
+
+h1, h2, h3, h4 {
+}
+
+#sidebar {
+		font-family:Helvetica, Arial, sans-serif;
+		color:#f1f2ec;} 					/* SIDE CONTRAST */
+
+#sideBanner{
+	/*background:url(images/sideBanner.png) no-repeat;
+	width:308px;
+	height:82px;
+	margin-left:-26px;
+	padding:20px;*/
+	margin-left:-25px;
+	margin-right:-19px;
+	position:relative;
+}
+#sideBanner .widget{
+	position:absolute;
+	left:0;
+	top:0;
+	margin:20px;
+	line-height:136&;
+}
+
+/*.sideBanner {
+background-image:url(images/sideBanner.png);
+background-position:50% 50%; 
+background-repeat:no-repeat; 
+display:block; 
+height:82px; 
+text-indent:-9999px;
+-moz-background-size:cover; 
+-webkit-background-size:cover; 
+background-size:cover;
+margin:0 -26px;
+}
+ 
+#onextrapixel{
+background-image:url(images/sideBanner.png);
+}*/
+
+
+#sidebar .side-widget a {
+		color:#f1f2ec; font-weight:normal;} /* SIDE CONTRAST */
+
+
+#sidebar h1, #sidebar h2, #sidebar h3,
+#sidebar h4, #sidebar h5, #sidebar h6, 
+#sidebar h1 a, #sidebar h2 a, #sidebar h3 a,
+#sidebar h4 a, #sidebar h5 a, #sidebar h6 a,
+#sidebar p a, #sidebar a{
+		color:#fff;}  						/* PAGE BG */
+		
+#sidebar h1 a:hover, #sidebar h2 a:hover,
+#sidebar h3 a:hover, #sidebar h4 a:hover, 
+#sidebar h5 a:hover, #sidebar h6 a:hover, 
+#sidebar p a:hover, #sidebar #older-posts a:hover, 
+#sidebar #newer-posts a:hover{
+		text-decoration:none; 
+		color:#5a89a6;
+		background-color:#f1f2ec;}
+											/* SIDE BG & SIDE CONTRAST */
+				
+#sidebar h1, #sidebar h2 {
+		color:#fff;} 						/* PAGE BG */ 
+
+#sidebar p {
+		color:#f1f2ec;} 					/* SIDE CONTRAST */
+
+.postmeta {
+		font-family:Arial, Helvetica, sans-serif;}
+
+/*blockquote {
+		border-top:3px #5a89a6 solid;}*/ 		/* SIDE BG */
+
+/******************** Forms ********************/
+
+/* Reservation Form */
+
+#form-wrapper input.sendbtn {
+	background-color: #73a4c3;				/* SIDE BG */
+	color:#ffffff;							/* PAGE BG */
+}
+#form-wrapper input.sendbtn:hover {
+	background-color:#5a89a6;				/* SIDE TINT */
+}
+
+/******************** Blog ********************/
+
+#comments-title, #reply-title, .nocomments {border-color:#ece7e1;} 					/* SITE BG */
+
+#comments .comment-author .fn, #comments .comment-author .fn a {color:#5a89a6;}		/*SIDE TINT*/
+#comments .comment-author a:hover {background-color:#5a89a6; color:#ffffff;}		/*SIDE TINT & PAGE BG*/
+
+#respond input#submit {
+	background-color: #73a4c3;				/* SIDE BG */
+	color:#ffffff;							/* PAGE BG */
+}
+#respond input#submit:hover {
+	background-color:#5a89a6;				/* SIDE TINT */
+}
+
+/******************** Social Media ********************/
+
+.soc a{
+	opacity:0.17;
+	filter:alpha(opacity=17); /* For IE8 and earlier */
+}
+
+.soc a:hover{
+	opacity:0.30;
+	filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+
+/******************** Shortcodes ********************/
+h3.trigger a:hover {
+		color:#5a89a6; 						/* SIDE BG */
+}
+
+.reso.button {background-color: #2b9baa;}	/* SIDE BG */
+.reso.button:hover {
+	-moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+
+/******************** Search ********************/
+input[type=search], input[type=search]:focus {
+		background: #5a89a6 url(images/search-icon.png) no-repeat 9px center; 		
+		color:#f1f2ec; 					/* SIDE CONTRAST */
+		box-shadow: 0 1px 1px rgba(255,255,255,.1),
+					inset 0 1px 1px rgba(0,0,0,.3);
+		-moz-box-shadow: 0 1px 1px rgba(255,255,255,.1),
+					inset 0 1px 1px rgba(0,0,0,.3);
+		-webkit-box-shadow: 0 1px 1px rgba(255,255,255,.1),
+					inset 0 1px 1px rgba(0,0,0,.3);
+}

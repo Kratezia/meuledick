@@ -1,0 +1,17 @@
+
+.row{ min-width: 960px; } 
+.fourcol{ min-width:250px; } 
+.eightcol{min-width:610px; margin-left:10px;}
+
+/* Display WP audio tag correctly */
+@media only screen and (min-width: 100px) and (max-width: 1179px) {
+	.wp-audio-shortcode{
+		max-width: 548px;
+	}
+}
+
+@media only screen and (min-width: 1180px) {
+	.wp-audio-shortcode{
+		max-width: 664px;
+	}
+}
